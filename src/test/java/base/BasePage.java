@@ -5,7 +5,7 @@ import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.BeforeEach;
 
 
-public class BasePage extends LinksPage {
+public class BasePage {
     @BeforeEach
     public void setUp(){
         Configuration.browser = "chrome";
